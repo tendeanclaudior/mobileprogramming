@@ -16,3 +16,8 @@ export default class Props extends Component {
         )
     }
 }
+
+const styles = StyleSheet.create({ // style pada React Native sama halnya seperti yang ada pada CSS yaitu dapat mendesain sebuah Text.
+
+    text: {fontSize: 30, color: "blue"}
+});
